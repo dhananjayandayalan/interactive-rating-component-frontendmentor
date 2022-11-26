@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+}
+
+main {
+  padding: 2rem;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+  min-width: 340px;
+  max-width: 400px;
+  padding: 2rem 1.3rem;
+  background: hsl(213, 19%, 18%);
+  border-radius: 1rem;
+}
+
+.rating .graphic {
+  background: hsl(213, 18%, 24%);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8em;
+  border-radius: 75%;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5;
+}
+
+.choices {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.choices li {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: hsl(213, 18%, 24%);
+  color: hsl(216, 12%, 54%);
+  display: grid;
+  place-items: center;
+}
+
+.choices li:hover {
+  background: hsl(216, 12%, 54%);
+  color: white;
+}
+
+.choices li.selected {
+  background: hsl(25, 97%, 53%);
+  color: white;
+}
+
+button,
+li {
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-family: inherit;
+  letter-spacing: 1.5px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-weight: 700;
+  background: hsl(25, 97%, 53%);
+}
+
+button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.thank-you .graphic {
+  display: grid;
+  place-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.thank-you .rate {
+  display: inline-block;
+  background: hsl(216, 12%, 25%);
+  padding: 0.4rem 0.8rem;
+  border-radius: 25px;
+  color: hsl(25, 86%, 66%);
+  margin-bottom: 1.6rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* Footer style */
+
+footer {
+  text-align: center;
+}
+
+footer a:visited {
+  color: hsl(25, 86%, 66%);
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: hsl(169, 85%, 49%);
+}

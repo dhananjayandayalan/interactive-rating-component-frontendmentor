@@ -20,6 +20,7 @@ The designs were created to the following widths:
 - Medium Grey: hsl(216, 12%, 54%)
 - Dark Blue: hsl(213, 19%, 18%)
 - Very Dark Blue: hsl(216, 12%, 8%)
+- Dark Blue for Round Background - hsl(213, 18%, 24%)
 
 ## Typography
 
